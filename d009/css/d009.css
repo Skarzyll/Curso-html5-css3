@@ -1,0 +1,16 @@
+@charset 'UFT-8';
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+img {
+    display: inline-block;
+    height: 11em;
+}

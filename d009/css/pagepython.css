@@ -1,0 +1,25 @@
+@charset 'UFT-8';
+
+body {
+    background-color: black;
+    text-align: center;
+    line-height: 1.8em;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+iframe {
+    display: inline-block;
+}
