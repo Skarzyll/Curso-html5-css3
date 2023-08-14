@@ -1,8 +1,8 @@
 # Curso-html5-css3
 Estou colocando aqui o meu progresso nos estudos de HTML5 e CSS3 (sem Javascript, por enquanto). Faço o curso com o professor Gustavo Guanabara. Obs: Vou colocar os desafios, as aulas-pdf com resposta e projeto final. gustavoguanabara.github.io/html-css/
-##
-<a href="https://skarzyll.github.io/Curso-html5-css3/" target="_blanck">Main Page</a>
-##
+
+<a href="https://skarzyll.github.io/Curso-html5-css3/" target="_blanck">Main Page</a><br>
+
 <a href="https://skarzyll.github.io/Curso-html5-css3/d001/d001.html" target="_blanck">Executar o desafio 001</a><br>
 <a href="https://skarzyll.github.io/Curso-html5-css3/d002/d002.html" target="_blanck">Executar o desafio 002</a><br>
 <a href="https://skarzyll.github.io/Curso-html5-css3/d003/d003.html" target="_blanck">Executar o desafio 003</a><br>
