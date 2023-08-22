@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/d014.css">
+    <title>Desafio da Construção de Tabelas</title>
+</head>
+<body>
+    <div id="divtab">
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col" rowspan="2">Áreas</th>
+                    <th scope="col" rowspan="2">Disciplinas</th>
+                    <th scope="colgroup" colspan="2">Notas</th>
+                    <th scope="col" rowspan="2">Média</th>
+                </tr>
+                <tr>
+                    <th scope="col">Nota 1</th>
+                    <th scope="col">Nota 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="rowgroup" rowspan="4">Exatas</th>
+                    <td>Matemática</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td>Fisica</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td>Química</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td>Biologia</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr style="background-color: lightgray;">
+                    <th scope="row" colspan="4">Média de Humanas</th>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <th scope="rowgroup" rowspan="2">Humanas</th>
+                    <td>História</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td>Geografia</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <th scope="row" colspan="4">Média de Humanas</th>
+                <td>0.0</td>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+@charset 'UTF-8';
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#divtab {
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+    position: relative;
+}
+
+thead {
+    background-color: lightgray;
+    position: sticky;
+    top: -1px;
+}
+
+th, td {
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+tfoot {
+    background-color: lightgray;
+    text-decoration: none;
+}
