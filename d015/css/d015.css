@@ -1,0 +1,97 @@
+@charset 'UTF-8';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-image: url('../images/fundo-madeira.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    width: 99vw;
+    height: 100vh;
+}
+
+section#celular {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 311px;
+    height: 627px;
+    background: url('../images/frame-iphone.png');
+}
+
+section#celular > iframe {
+    position: absolute;
+    top: 12.5%;
+    left: 6.8%;
+    width: 265px;
+    height: 470px;
+}
+
+section#links {
+    display: block;
+    width: 6%;
+}
+
+section#links > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+    transition: all 0.4s;
+    box-sizing: border-box;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.377);
+} 
+
+section#links > a:hover {
+    border: 1px solid white;
+    opacity: 0.7;
+    transform: translate(-3, -3);
+    transition: transform 0.7s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
+}
+
+a#pagehome {
+    background-color: black;
+}
+
+a#pagefacebook {
+    background-color: #4767b3;
+}
+
+a#pagetwitter {
+    background-color: #1A8CD8;
+}
+
+a#pageinstagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+a#pagegithub {
+    background-color: black;
+}
+
+a#pageyoutube {
+    background-color: #FF0000;
+}
